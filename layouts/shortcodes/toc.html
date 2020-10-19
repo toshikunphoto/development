@@ -1,0 +1,8 @@
+<!-- TOC -->
+</div>
+<div class="toc">
+<h1>Contents</h1>
+{{ .Page.TableOfContents | replaceRE `<ul>\s*<li>\s*<ul>` `<ul>` | replaceRE `</ul>\s*</li>\s*</ul>` `</ul>` | safeHTML }}
+</div>
+<div class="article-body">
+<!-- TOC -->

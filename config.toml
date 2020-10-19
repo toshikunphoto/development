@@ -19,6 +19,8 @@ fontfamily = "YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional,
 
 [taxonomies]
 tag = "tags"
+category = "categories"
+archive = "archives"
 
 [params.author]
 thumbnail = "images/author.jpg"

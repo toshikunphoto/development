@@ -1,0 +1,39 @@
+baseurl = "https://toshikunblog.net/"
+title = "Toshikun Dlife"
+theme = "hugo_theme_robust"
+googleAnalytics = "UA-165344098-1" # Optional
+disqusShortname = "https-toshikunblog-net"
+hasCJKLanguage = true
+copyright = "Copyright © 2020 Toshikun Dlife"
+
+[params]
+description = "舞浜とネットワークとITなLife"
+dateformat = "Jan 2, 2006" # Optional
+# Fonts settings.
+googlefonts = "https://fonts.googleapis.com/css?family=Source+Code+Pro" # Optional, Include google fonts.
+fontfamily = "YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
+# logofontfamily = "Yu Gothic, M PLUS 1p" # Optional, Override logo font.
+
+# enableHighlight = false # highlight.js option
+
+[params.author]
+thumbnail = "images/author.jpg"
+name = "Toshikun"
+description = "<p>舞浜と家と職場を行き来する人間</p><p>ネットワークとか趣味のことを書き連ねるだけの場所</p><p>サイドFireを目指す雑魚ネットワークエンジニアです</p>"
+instagram = "https://www.instagram.com/toshikun_photo/"
+twitter = "https://twitter.com/toshikun_photo/"
+youtube = "https://www.youtube.com/channel/UChJwQKK0lApGygrgHDGAsfA/"
+github = "https://github.com/toshikunphoto/"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+    [markup.tableOfContents]
+        ordered = false
+        startLevel = 2
+        endLevel = 4
+
+[outputs]
+page = [ "HTML", "AMP" ] # if you want AMP enable.
+

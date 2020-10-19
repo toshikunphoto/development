@@ -16,6 +16,9 @@ fontfamily = "YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional,
 
 #enableHighlight = false # highlight.js option
 
+[taxonomies]
+tag = "tags"
+
 [params.author]
 thumbnail = "images/author.jpg"
 name = "Toshikun"

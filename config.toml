@@ -37,3 +37,5 @@ unsafe = true
 [outputs]
 page = [ "HTML", "AMP" ] # if you want AMP enable.
 
+[minify]
+ disableJSON = true

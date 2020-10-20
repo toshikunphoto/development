@@ -9,7 +9,7 @@ languageCode = "ja-jp"
 
 [params]
 description = "舞浜とネットワークとITなLife"
-dateformat = "Jan 2, 2006" # Optional
+dateformat = "2006/01/02" # Optional
 #Fonts settings.
 googlefonts = "https://fonts.googleapis.com/css?family=Source+Code+Pro" # Optional, Include google fonts.
 fontfamily = "YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.

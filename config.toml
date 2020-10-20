@@ -9,7 +9,7 @@ languageCode = "ja-JP"
 
 [params]
 description = "舞浜とネットワークとITなLife"
-dateformat = "2006/01/02" # Optional
+dateformat = "2006-01-02" # Optional
 #Fonts settings.
 googlefonts = "https://fonts.googleapis.com/css?family=Source+Code+Pro" # Optional, Include google fonts.
 fontfamily = "YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
@@ -19,7 +19,7 @@ fontfamily = "YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional,
 
 [taxonomies]
 tag = "tags"
-#archive = "archives"
+archive = "archives"
 
 
 [params.author]
@@ -42,6 +42,3 @@ unsafe = true
 
 [outputs]
 page = [ "HTML", "AMP" ] # if you want AMP enable.
-
-[minify]
- disableJSON = true

@@ -5,7 +5,7 @@ googleAnalytics = "UA-165344098-1" # Optional
 disqusShortname = "https-toshikunblog-net"
 hasCJKLanguage = true
 copyright = "Copyright © 2020 Toshikun Dlife"
-languageCode = "ja-jp"
+languageCode = "ja-JP"
 
 [params]
 description = "舞浜とネットワークとITなLife"

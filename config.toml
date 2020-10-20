@@ -6,8 +6,7 @@ disqusShortname = "https-toshikunblog-net"
 hasCJKLanguage = true
 copyright = "Copyright © 2020 Toshikun Dlife"
 languageCode = "ja-JP"
-pygmentsCodefences = true
-pygmentsUseClasses = true
+
 
 [params]
 description = "舞浜とネットワークとITなLife"

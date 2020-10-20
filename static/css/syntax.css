@@ -2,6 +2,7 @@
 .chroma {
     color: #f8f8f2;
     background-color: #272822;
+    max-height: 400px; /* Change to your desired max height */
     font-family:  'Source Code Pro', monospace;
 }
 /* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
@@ -62,12 +63,4 @@
 /* GenericInserted */ .chroma .gi { color: #a6e22e }
 /* GenericStrong */ .chroma .gs { font-weight: bold }
 /* GenericSubheading */ .chroma .gu { color: #75715e }
-
-code {
-    font-family: "Helvetica Neue",
-      Arial,
-      "Hiragino Kaku Gothic ProN",
-      "Hiragino Sans",
-      Meiryo,
-      sans-serif;
-  }
+code { font-family:  'Source Code Pro', monospace; }

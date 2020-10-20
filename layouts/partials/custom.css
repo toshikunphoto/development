@@ -11,7 +11,7 @@ html {
 
 body {
   color: #333;
-   font-family: ,"Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo,'游ゴシック体', 'Yu Gothic', YuGothic, sans-serif;
+  font-family: ,"Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo,'游ゴシック体', 'Yu Gothic', YuGothic, sans-serif;
   font-weight: 500;
   font-feature-settings : "palt";
   font-size: inherit;
@@ -599,6 +599,8 @@ section {
   }
 }
 
-.code { font-family:  'Source Code Pro', Meiryo; }
+code {
+  font-family:  'Source Code Pro';
+}
 
 .mysocial { color: hsl(241, 40%, 31%);}

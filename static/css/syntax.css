@@ -2,7 +2,8 @@
 .chroma {
     color: #f8f8f2;
     background-color: #272822;
-    font-family:  'Source Code Pro', Meiryo;
+    max-height: 400px; /* Change to your desired max height */
+    font-family:  'Source Code Pro', monospace;
 }
 /* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }

@@ -1,6 +1,5 @@
 ---
 title: "当ブログについて"
-archives: "2020/01"
 tags: []
 author: toshikun
 ---

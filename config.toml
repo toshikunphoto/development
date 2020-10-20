@@ -19,7 +19,7 @@ fontfamily = "YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional,
 
 [taxonomies]
 tag = "tags"
-#archive = "archives"
+archive = "archives"
 
 
 [params.author]

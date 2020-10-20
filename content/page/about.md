@@ -1,8 +1,7 @@
 ---
 title: "当ブログについて"
 date: 2020-01-01T11:57:22+09:00
-_build:
-  list: false
+_build: { list: false }
 author: toshikun
 ---
 # 当ブログについて

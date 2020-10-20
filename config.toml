@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "http://example.com/"
 title = "Toshikun Dlife"
 theme = "hugo_theme_robust"
 googleAnalytics = "UA-165344098-1" # Optional
@@ -19,7 +19,7 @@ fontfamily = "YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional,
 
 [taxonomies]
 tag = "tags"
-archive = "archives"
+#archive = "archives"
 
 
 [params.author]

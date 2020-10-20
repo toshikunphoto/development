@@ -1,4 +1,4 @@
-baseurl = "https://boring-goldstine-163dee.netlify.app/"
+baseurl = "https://example.com/"
 title = "Toshikun Dlife"
 theme = "hugo_theme_robust"
 googleAnalytics = "UA-165344098-1" # Optional

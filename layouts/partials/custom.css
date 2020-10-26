@@ -599,7 +599,8 @@ section {
   }
 }
 
-code {
+/* codeblock */
+.highlight {
   font-family:  'Source Code Pro';
 }
 

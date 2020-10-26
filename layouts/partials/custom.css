@@ -603,4 +603,9 @@ code {
   font-family:  'Source Code Pro';
 }
 
-.mysocial { color: hsl(241, 40%, 31%);}
+/* contact・privacypolicy */
+.mysocial { 
+  color: hsl(207, 90%, 54%);
+}
+
+.mysocial:hover { color: hsl(0, 0%, 71%) }

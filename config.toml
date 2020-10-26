@@ -24,7 +24,7 @@ archives = "archives"
 
 
 [params.author]
-thumbnail = "images/author.jpg"
+thumbnail = "img/images.jpg"
 name = "Toshikun"
 description = "<p>舞浜と家と職場を行き来する人間</p><p>ネットワークとか趣味のことを書き連ねるだけの場所</p><p>サイドFireを目指す雑魚ネットワークエンジニアです</p>"
 instagram = "https://www.instagram.com/toshikun_photo/"

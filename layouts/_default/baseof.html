@@ -29,7 +29,7 @@
 {{ end }}
 
 .thumb {
-  background-image: url("{{ "images/default.jpg" | absURL }}");
+  background-image: url("{{ "img/images.jpg" | absURL }}");
   background-size: cover;
   background-position: center;
 }
@@ -88,6 +88,7 @@ ga('send', 'pageview');
 
     <footer class="l-footer">
       <div class="l-container">
+        <a class="mysocial" href="{{ .Site.BaseURL}}page/contact">問い合わせ</a> - <a class="mysocial" href="{{ .Site.BaseURL}}page/privacypolicy">プライバシーポリシー</a>
         <p>{{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; {{ .Site.Title }}</span>{{ end }}</p>
         <aside>
           <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>

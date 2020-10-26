@@ -11,7 +11,7 @@ html {
 
 body {
   color: #333;
-  font-family: ,"Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro","メイリオ",'Meiryo','游ゴシック体', 'Yu Gothic', sans-serif;
+  font-family: ,"Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo,'游ゴシック体', 'Yu Gothic', YuGothic, sans-serif;
   font-weight: 500;
   font-feature-settings : "palt";
   font-size: inherit;
@@ -343,10 +343,9 @@ article.sn > .article-body em {
 
 article.sn > .article-body code,
 article.sn > .article-body pre {
-  font-family: Source Code Pro, monospace;
+  font-family: 'Source Code Pro','Meiryo',monospace;
   font-size: .7rem;
 }
-
 
 article.sn > .article-body pre {
   background-color: #333;
@@ -599,11 +598,6 @@ section {
     padding: 1 1rem;
   }
 }
-
-/* codeblock */
-/*.highlight {*/
-/*  font-family:  'Source Code Pro';*/
-/*}*/
 
 /* contact・privacypolicy */
 .mysocial { 

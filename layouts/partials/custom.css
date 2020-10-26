@@ -606,7 +606,7 @@ section {
 }
 .mysocial:hover { color: hsl(0, 0%, 71%) }
 
-/* blogcard */
+/* ---------blogcard--------- */
 
 @charset "utf-8";
 
@@ -702,10 +702,18 @@ section {
   margin-right: 5px;
 }
 
+/* ---------blogcard追加--------- */
 
-/*追加*/
+.blogcard {
+  position: relative;
+}
+/* 任意(できればデフォルトCSSの同ルールセット内の記述を変更) */
+.blogcard-description {
+  margin: 1em 0 0 !important;
+}
+/* 任意ここまで */
 .blogcard-footer {
-  position: static;
+  height: calc(12px * 1.2 * 2 + 10px);
 }
 .blogcard-footer a {
   display: flex;
@@ -715,10 +723,11 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 0 20px 10px calc(30% + 20px);/* 画像が右の場合は 0 calc(30% + 20px) 10px 20px に変更 */
+  padding: 0 10px 10px;
+  line-height: 1.2;
   word-break: break-all;
-  transition: .3s ease-in-out;
-}  
+  transition: .3s ease-in-out;/* 不要な場合は削除 */
+}
 .blogcard-footer a:hover {
   box-shadow: 0 10px 10px 2px rgba(0,0,0,.1);
 }

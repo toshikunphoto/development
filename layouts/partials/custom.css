@@ -343,7 +343,7 @@ article.sn > .article-body em {
 
 article.sn > .article-body code,
 article.sn > .article-body pre {
-  font-family: Menlo, Consolas, monospace;
+  font-family: Source Code Pro, Consolas, monospace;
   font-size: .7rem;
 }
 
@@ -608,5 +608,4 @@ section {
 .mysocial { 
   color: hsl(207, 90%, 54%);
 }
-
 .mysocial:hover { color: hsl(0, 0%, 71%) }

@@ -343,7 +343,7 @@ article.sn > .article-body em {
 
 article.sn > .article-body code,
 article.sn > .article-body pre {
-  font-family: Source Code Pro, Consolas, monospace;
+  font-family: Source Code Pro, monospace;
   font-size: .7rem;
 }
 

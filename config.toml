@@ -7,15 +7,16 @@ hasCJKLanguage = true
 copyright = "Copyright © 2020 Toshikun Dlife"
 languageCode = "ja-JP"
 
+
 [params]
 description = "舞浜とネットワークとITなLife"
 dateformat = "2006-01-02" # Optional
 #Fonts settings.
-#googlefonts = "https://fonts.googleapis.com/css?family=M+PLUS+1p" # Optional, Include google fonts.
-fontfamily = "Meiryo,YuGothic,'Hiragino Kaku Gothic Pro',monospace;" # Optional, Override body font family.
+googlefonts = "https://fonts.googleapis.com/css?family=Source+Code+Pro" # Optional, Include google fonts.
+fontfamily = "'YuGothic','Yu Gothic','Hiragino Kaku Gothic Pro',Meiryo,sans-serif;" # Optional, Override body font family.
 #logofontfamily = "Yu Gothic, M PLUS 1p" # Optional, Override logo font.
 
-#enableHighlight = true # highlight.js option
+#enableHighlight = false # highlight.js option
 
 [taxonomies]
 tag = "tags"

@@ -343,8 +343,9 @@ article.sn > .article-body em {
 
 article.sn > .article-body code,
 article.sn > .article-body pre {
-  font-family: 'Source Code Pro','Meiryo',monospace;
-  font-size: .7rem;
+  font-family: 'Source Code Pro','Meiryo', monospace;
+  font-size: .79rem;
+  line-height: 1.5
 }
 
 article.sn > .article-body pre {
@@ -597,6 +598,10 @@ section {
   .toc {
     padding: 1 1rem;
   }
+}
+
+code{
+
 }
 
 /* contact・privacypolicy */

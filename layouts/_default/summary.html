@@ -18,10 +18,11 @@
       {{ end }}
       {{ if .Draft }}
       <li style="color: #2196f3;">DRAFT</li>
-      <br><br>
-      <!--記事関連タグを表示させる-->
-      {{ partial "tag-in-page.html" . }}
       {{ end }}
+      <br>
+      <!--記事関連タグを表示させる-->
+      <br>
+      {{ partial "tag-in-page.html" . }}
     </ul>
     <!-- beer-slider start -->
     <link rel="stylesheet" href="/css/BeerSlider.css">

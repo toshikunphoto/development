@@ -18,6 +18,9 @@
       {{ end }}
       {{ if .Draft }}
       <li style="color: #2196f3;">DRAFT</li>
+      <br><br>
+      <!--記事関連タグを表示させる-->
+      {{ partial "tag-in-page.html" . }}
       {{ end }}
     </ul>
     <!-- beer-slider start -->
@@ -25,9 +28,6 @@
     <!-- beer-slider finish-->
     {{ partial "share.html" . }}
   </header>
-
-
-
   <div class="article-body">{{ .Content }}</div>
 
 

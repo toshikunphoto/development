@@ -611,6 +611,7 @@ section {
 
 /* カード全体像 */
 .blogcard {
+  position: relative;
   max-width: 100%;
   margin-bottom: 30px;
   padding: 10px;
@@ -619,7 +620,6 @@ section {
   box-shadow: 0 10px 6px -6px rgba(0,0,0,.1);
   background: white;
   color: rgb(51,51,51);
-  position: relative;
 }
 
 /* float親要素 */
@@ -683,7 +683,7 @@ section {
 
 /* 記事概要 */
 .blogcard-description {
-  margin: 1em 0 0!important;
+  margin: 1em 0 !important;
   font-size: 13px;
   line-height: 1.5 !important;
 }
@@ -691,7 +691,7 @@ section {
 /* フッター(元記事サイト名とリンク) */
 .blogcard-footer {
   font-size: 12px;
-  height: calc(12px * 1.2 * 2 + 10px);
+  height: calc(12px * 1.2 + 10px);
 }
 
 .blogcard-footer a {
@@ -704,15 +704,17 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 0 ;
-  line-height: 1.2;
+  line-height: 2.5;　/* リンクの位置はここで変更 */
   word-break: break-all;
 }
 
 .blogcard-footer a img {
+  background-color: rgb(154,165,171);
   margin-right: 5px;
+  margin-left: 5px;/* ロゴの位置はここで変更 */
+  margin-bottom: 5.5px;
 }
+
 .blogcard-footer a:hover {
   box-shadow: 0 10px 10px 2px rgba(0,0,0,.1);
 }
-/* リンク全体 */
